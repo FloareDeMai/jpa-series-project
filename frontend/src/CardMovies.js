@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function CardMovies(props) {
   let [recentMovies, setRecentMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
+//comment
   useEffect(() => {
     setIsLoading(true);
     fetch("http://localhost:8080/api/series")
