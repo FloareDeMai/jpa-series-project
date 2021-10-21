@@ -44,7 +44,7 @@ class JpaSeriesProjectApplicationTests {
     @Test
     public void testAddNewSeries(){
         Series series = new Series();
-        series.setTitle("Cenusareasa");
+        series.setTitle("Alba ca zapada");
         series.setGenre(Arrays.asList("Comedy", "Action"));
         series.setHomepage("http://www.google.ro");
         series.setRating(7.99);

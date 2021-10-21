@@ -17,6 +17,7 @@ import java.util.List;
 @CrossOrigin
 public class EpisodeController {
 
+    //field injected in constructor
     private final EpisodeRepository episodeRepository;
 
 
